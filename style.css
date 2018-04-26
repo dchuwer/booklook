@@ -1,0 +1,20 @@
+.header {
+    margin-top : 5%;
+    padding-left: 5%;
+    
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    width: 45%;
+}
+
+.form {
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 25px;
+}
+
+.results{
+    width:45%;
+    text-align: justify;
+    text-justify: inter-word;
+}

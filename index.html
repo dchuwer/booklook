@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="node_modules\font-awesome\css\font-awesome.css">
+   
+    
+    
+    
+    
+   
+</head>
+<body>
+   
+      
+      <div class="header">
+       <h1> BookLook <i class="fa fa-eye"></i></h1>
+      </div>
+       
+      <div class="results">
+          <script id="searchResult" type="text/x-handlebars-template">
+            <p>
+              <h1> {{ title }} </h1> 
+              <p>{{ description }}  </p>
+              
+              <h3>Written by: {{ authors }} </h3>
+  
+              <div id="t">
+                  <img class="someClass" src="{{imageLinks.smallThumbnail}}">
+                  
+              </div>
+          </script>
+        
+       </div>
+       
+       <form class="form">
+          <div class ="questions">
+            <h4>Search by ISBN<h4>
+            <input class="isbnCode" type="text" placeholder="ISBN Number">
+          </div>
+          <button type="button" class="btn btn-primary searchButton">Search</button>
+       </form>
+
+       
+         
+    
+       <script src="\node_modules\handlebars\dist\handlebars.js"></script>
+       <script src="node_modules/jquery/dist/jquery.js"> </script>
+       <script src="script.js"></script>
+   
+
+</body>
+</html>
